@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ddd;
+}
+
+/* Header */
+header{
+    background-color: black;
+    width: 100%;
+    margin: 0px;
+    padding: 30px;
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0 40px;
+}
+
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.current{
+    background-color: rgb(24, 31, 41);
+    border-radius: 5px;
+}
+
+/* Main */
+.logo{
+    background-image: url(../Images/B_Img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    width: 250px;
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20%;
+}
+
+.appreciation p{
+    width: 100%;
+    margin: auto;
+    padding: 15px ;
+    background-color: rgb(40, 42, 43);
+    color: whitesmoke;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 50px;
+    font-size: 35px;
+    background-color: rgb(40, 42, 43);
+    color: whitesmoke;
+    outline: 1px solid rgb(48, 76, 129);
+}
+
+h2:hover{
+    color: rgb(100, 103, 138);
+    cursor: pointer;
+}
+
+form{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 2px 2px;
+    padding: 5px;
+    color: rgb(59, 59, 52);
+}
+
+input{
+    width: 30%;
+    margin: 0 auto;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+::placeholder{
+    width: 100%;
+    font-size: 18px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    opacity: 0.3;
+}
+
+textarea{
+    width: 30%;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.policy{
+    font-size: 20px;  
+}
+
+button{
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    background-color: rgb(59, 59, 52);
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(100, 103, 138);
+}
+
+/* Footer */
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 20px 0 0 0;
+    padding: 20px 0 20px 0;
+    color: whitesmoke;
+    font-size: 20px;
+    background-color: rgb(40, 42, 43);
+}
+
+
